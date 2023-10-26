@@ -1,0 +1,3 @@
+[submodule "submodules/AnoDDPM"]
+	path = submodules/AnoDDPM
+	url = git@github.com:DTU-PAS/AnoDDPM.git
