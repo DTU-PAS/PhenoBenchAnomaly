@@ -10,7 +10,6 @@ class PhenoBenchAnomalyDataset(torch.utils.data.Dataset):
         self.root = root_dir
         self.split = split
         self.transform = transform
-        print(os.path.dirname(os.path.realpath(__file__)))
         if split == "train":
             extension_file = f"{os.path.dirname(os.path.realpath(__file__))}/../../PhenoBench_extensions/{split}/phenobench_anomaly_{weed_percentage}.txt"
         elif split == "val":
